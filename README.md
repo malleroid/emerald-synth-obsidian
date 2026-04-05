@@ -1,6 +1,6 @@
 # Emerald Synth for Obsidian
 
-A synthwave-inspired dark theme for [Obsidian](https://obsidian.md) with deep purple backgrounds and cyan-green accents.
+A synthwave-inspired dark theme for [Obsidian](https://obsidian.md) with deep purple backgrounds and emerald-green foreground text.
 
 This repository is a distribution copy of the Obsidian theme from [malleroid/emerald-synth](https://github.com/malleroid/emerald-synth), published as a standalone Obsidian community theme.
 
@@ -9,12 +9,12 @@ This repository is a distribution copy of the Obsidian theme from [malleroid/eme
 | Role | Color | Hex |
 |------|-------|-----|
 | Background | ![#0d0221](https://placehold.co/16x16/0d0221/0d0221) | `#0d0221` |
-| Foreground | ![#f0e6ff](https://placehold.co/16x16/f0e6ff/f0e6ff) | `#f0e6ff` |
-| Accent | ![#00ffcc](https://placehold.co/16x16/00ffcc/00ffcc) | `#00ffcc` |
-| Heading 1 | ![#00ffcc](https://placehold.co/16x16/00ffcc/00ffcc) | `#00ffcc` |
+| Foreground | ![#00ffcc](https://placehold.co/16x16/00ffcc/00ffcc) | `#00ffcc` |
+| Accent | ![#ff79c6](https://placehold.co/16x16/ff79c6/ff79c6) | `#ff79c6` |
+| Heading 1 | ![#ff79c6](https://placehold.co/16x16/ff79c6/ff79c6) | `#ff79c6` |
 | Heading 3 | ![#4dd0e1](https://placehold.co/16x16/4dd0e1/4dd0e1) | `#4dd0e1` |
 | Italic | ![#ff79c6](https://placehold.co/16x16/ff79c6/ff79c6) | `#ff79c6` |
-| Code | ![#00ffcc](https://placehold.co/16x16/00ffcc/00ffcc) | `#00ffcc` |
+| Code | ![#ff79c6](https://placehold.co/16x16/ff79c6/ff79c6) | `#ff79c6` |
 | Error | ![#ff2a6d](https://placehold.co/16x16/ff2a6d/ff2a6d) | `#ff2a6d` |
 
 ## Install

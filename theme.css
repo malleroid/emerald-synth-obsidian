@@ -14,14 +14,14 @@
   --color-base-35: #4a3565;   /* split_divider */
   --color-base-40: #6a5585;   /* ansi.bright_black */
   --color-base-50: #6a5585;   /* bright_black — placeholder text */
-  --color-base-60: #8369a5;   /* fg_shades.muted — secondary text */
+  --color-base-60: #8d73af;   /* fg_shades.muted — secondary text */
   --color-base-70: #a496b9;   /* dim_white */
-  --color-base-100: #f0e6ff;  /* core.fg */
+  --color-base-100: #00ffcc;  /* core.fg */
 
   /* ── Foundation: Accent (HSL) ── */
-  --accent-h: 168;
+  --accent-h: 326;
   --accent-s: 100%;
-  --accent-l: 50%;
+  --accent-l: 74%;
 
   /* ── Semantic: Backgrounds ── */
   --background-primary: #0d0221;
@@ -31,40 +31,40 @@
   --background-modifier-border: #4a3565;
   --background-modifier-form-field: #15053080;
   --background-modifier-form-field-highlighted: #240d49;
-  --background-modifier-success: #00ffcc40;
+  --background-modifier-success: #00ffcc40;  /* semantic: keep green */
   --background-modifier-error: #ff2a6d40;
   --background-modifier-error-hover: #ff2a6d50;
   --background-modifier-cover: #0a0118cc;
 
   /* ── Semantic: Text ── */
-  --text-normal: #f0e6ff;
-  --text-muted: #8369a5;
+  --text-normal: #00ffcc;
+  --text-muted: #8d73af;
   --text-faint: #6a5585;
-  --text-accent: #00ffcc;
-  --text-accent-hover: #40ffdd;
+  --text-accent: #ff79c6;
+  --text-accent-hover: #ff9ed0;
   --text-error: #ff2a6d;
   --text-error-hover: #ff5c8a;
-  --text-highlight-bg: #00ffcc25;
+  --text-highlight-bg: #ff79c625;
   --text-selection: #1a3d3580;
   --text-on-accent: #0d0221;
 
   /* ── Semantic: Interactive ── */
   --interactive-normal: #240d49;
   --interactive-hover: #2b1451;
-  --interactive-accent: #00ffcc;
-  --interactive-accent-hover: #00d4aa;
-  --interactive-accent-rgb: 0, 255, 204;
-  --interactive-success: #00ffcc;
+  --interactive-accent: #ff79c6;
+  --interactive-accent-hover: #d964a8;
+  --interactive-accent-rgb: 255, 121, 198;
+  --interactive-success: #00ffcc;  /* semantic: keep green */
 
   /* ── Scrollbar ── */
-  --scrollbar-bg: #00ffcc08;
-  --scrollbar-thumb-bg: #00ffcc20;
-  --scrollbar-active-thumb-bg: #00ffcc40;
+  --scrollbar-bg: #ff79c608;
+  --scrollbar-thumb-bg: #ff79c620;
+  --scrollbar-active-thumb-bg: #ff79c640;
 
   /* ── Nav / Sidebar ── */
-  --nav-item-color: #f0e6ff;
-  --nav-item-color-hover: #00ffcc;
-  --nav-item-color-active: #00ffcc;
+  --nav-item-color: #00ffcc;
+  --nav-item-color-hover: #ff79c6;
+  --nav-item-color-active: #ff79c6;
   --nav-item-background-hover: #2b1451;
   --nav-item-background-active: #1a3d35;
   --nav-item-weight-hover: inherit;
@@ -79,52 +79,52 @@
   --tag-border-color-hover: #4dd0e160;
 
   /* ── Headings ── */
-  --h1-color: #00ffcc;
-  --h2-color: #40ffdd;
-  --h3-color: #4dd0e1;
-  --h4-color: #8b9cf7;
-  --h5-color: #ff79c6;
-  --h6-color: #8369a5;
+  --h1-color: #ff79c6;
+  --h2-color: #ffcc66;
+  --h3-color: #8b9cf7;
+  --h4-color: #4dd0e1;
+  --h5-color: #40ffdd;
+  --h6-color: #8d73af;
 
   /* ── Inline ── */
-  --bold-color: #f0e6ff;
+  --bold-color: #00ffcc;
   --italic-color: #ff79c6;
-  --code-normal: #00ffcc;
+  --code-normal: #ff79c6;
   --code-background: #15053080;
   --code-comment: #6a5585;
 
   /* ── Syntax (code blocks) ── */
   --code-function: #4dd0e1;
   --code-keyword: #8b9cf7;
-  --code-string: #00ffcc;
+  --code-string: #ff79c6;
   --code-value: #ffe099;
   --code-important: #ff2a6d;
   --code-tag: #ff2a6d;
   --code-property: #4dd0e1;
-  --code-operator: #f0e6ff;
+  --code-operator: #00ffcc;
   --code-punctuation: #6a5585;
 
   /* ── Graph ── */
   --graph-line: #4a3565;
-  --graph-dot: #00ffcc;
-  --graph-node: #00ffcc;
-  --graph-node-focused: #40ffdd;
+  --graph-dot: #ff79c6;
+  --graph-node: #ff79c6;
+  --graph-node-focused: #ff9ed0;
   --graph-node-tag: #4dd0e1;
   --graph-node-attachment: #ffcc66;
   --graph-node-unresolved: #ff2a6d;
 
   /* ── Checkbox ── */
-  --checkbox-color: #00ffcc;
-  --checkbox-color-hover: #40ffdd;
+  --checkbox-color: #ff79c6;
+  --checkbox-color-hover: #ff9ed0;
   --checkbox-border-color: #4a3565;
-  --checkbox-border-color-hover: #00d4aa;
+  --checkbox-border-color-hover: #d964a8;
 
   /* ── Indentation guide ── */
   --indentation-guide-color: #150530;
-  --indentation-guide-color-active: #00d4aa;
+  --indentation-guide-color-active: #d964a8;
 
   /* ── Blockquote ── */
-  --blockquote-border-color: #00d4aa;
+  --blockquote-border-color: #d964a8;
 
   /* ── Table ── */
   --table-header-background: #150530;
@@ -139,10 +139,10 @@
   --callout-warning: #ffcc66;
   --callout-success: #00ffcc;
   --callout-info: #8b9cf7;
-  --callout-tip: #00ffcc;
+  --callout-tip: #ff79c6;
   --callout-question: #ffcc66;
-  --callout-quote: #8369a5;
-  --callout-todo: #00ffcc;
+  --callout-quote: #8d73af;
+  --callout-todo: #ff79c6;
   --callout-example: #ff79c6;
 }
 
